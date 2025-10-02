@@ -35,11 +35,12 @@ header, footer {
 
 .Escudo {
     transition:  
-    transform 2s ease;
+        transform 2s ease;
 }
 
 .Escudo:hover {
-    transform: scale(1.5);
+    transform: 
+        scale(1.5);
 }
 
 img {
@@ -58,11 +59,11 @@ img {
     padding: 0px;
     margin: 10px;
     transition: 
-    background-color 2s ease,
-    border 2s ease,
-    box-shadow 2s ease,
-    width 3s ease,
-    height 3s ease;
+        background-color 3s ease,
+        border 3s ease,
+        box-shadow 3s ease,
+        width 3s ease,
+        height 3s ease;
 }
 
 .circles:hover {
@@ -80,11 +81,133 @@ img {
     border-radius: 50%;
 }
 
+.circle1 {
+    transition: 
+        transform 6s ease;
+}
+
+.circle1:hover {
+    transform: 
+        rotateZ(360deg);
+}
+
+.circle2 {
+    transition: 
+        transform 6s ease;
+}
+
+.circle2:hover {
+    transform: 
+        translateY(-150px);
+}
+
+.circle3 {
+    transition: 
+        transform 6s ease;
+}
+
+.circle3:hover {
+    transform: 
+        rotateZ(-360deg);
+}
+
+.circle4 {
+    transition: 
+        transform 6s ease;
+}
+
+.circle4:hover {
+    transform: 
+        translateX(-150px) 
+        translateY(-150px);
+}
+
+.circle5 {
+    transition: 
+        transform 6s ease;
+}
+
+.circle5:hover {
+    transform: 
+        rotateX(360deg);
+}
+
+.circle6 {
+    transition: 
+        transform 6s ease;
+}
+
+.circle6:hover {
+    transform: 
+        translateX(150px) 
+        translateY(-150px);
+}
+
+.circle7 {
+    transition: 
+        transform 6s ease;
+}
+
+.circle7:hover {
+    transform: 
+        translateX(-150px) 
+        translateY(-150px) 
+        rotateZ(360deg);
+}
+
+.circle8 {
+    transition: 
+        transform 6s ease;
+}
+
+.circle8:hover {
+    transform: 
+        translateY(-150px)
+        rotateZ(360deg);
+}
+
+.circle9 {
+    transition: 
+        transform 6s ease;
+}
+
+.circle9:hover {
+    transform: 
+        translateY(-150px)
+        rotateZ(-360deg);
+}
+
+.circle10 {
+    transition: 
+        transform 6s ease;
+}
+
+.circle10:hover {
+    transform: 
+        translateX(150px) 
+        translateY(-150px) 
+        rotateZ(-360deg);
+}
+
+.portero {
+    transition: 
+        transform 6s ease;
+}
+
+.portero:hover {
+    transform: 
+        rotateY(360deg);
+}
+
 .entrenador {
     transition: 
-    transform 6s ease;
+        transform 6s ease;
 }
 
 .entrenador:hover {
-    transform: scale(2);
+    transform: 
+        scale(2)
+        rotateX(360deg)
+        rotateY(360deg)
+        rotateZ(360deg);
 }
